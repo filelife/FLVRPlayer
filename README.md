@@ -1,6 +1,8 @@
 # VR视频开发分享
 ##### 为了让大家更好的阅读Demo代码，以下简单介绍相关知识及实现思路。
+预览Demo效果图：
 ![Demo效果图.gif](/pic.gif)
+
 ## Step 0.
 #### 0.1 渲染VR场景视频的大致思路：
 ![image](http://upload-images.jianshu.io/upload_images/1049769-5e8b49b5dd0721fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
