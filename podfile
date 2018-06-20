@@ -1,0 +1,5 @@
+
+target 'GVRDemo' do
+	platform:ios, '9.1'
+	
+end

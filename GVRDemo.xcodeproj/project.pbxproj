@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7010B8D61ECB7591003BE838 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 7010B8D41ECB7591003BE838 /* Shader.fsh */; };
+		7010B8D71ECB7591003BE838 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 7010B8D51ECB7591003BE838 /* Shader.vsh */; };
+		7010B8DF1ECC2DA4003BE838 /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7010B8DE1ECC2DA4003BE838 /* MyOpenGLView.m */; };
+		704C59C51EC43C98008C6E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 704C59C41EC43C98008C6E31 /* main.m */; };
+		704C59C81EC43C98008C6E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 704C59C71EC43C98008C6E31 /* AppDelegate.m */; };
+		704C59CE1EC43C98008C6E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704C59CC1EC43C98008C6E31 /* Main.storyboard */; };
+		704C59D01EC43C98008C6E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704C59CF1EC43C98008C6E31 /* Assets.xcassets */; };
+		704C59D31EC43C98008C6E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704C59D11EC43C98008C6E31 /* LaunchScreen.storyboard */; };
+		704C59DF1EC47078008C6E31 /* 雪地.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 704C59DC1EC47078008C6E31 /* 雪地.mp4 */; };
+		706DC7F41EC9D91600477378 /* VRVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706DC7F31EC9D91600477378 /* VRVideoPlayerViewController.m */; };
+		70F9A3DD1EFBA0FA004175F7 /* DrawABallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9A3DC1EFBA0FA004175F7 /* DrawABallViewController.m */; };
+		70F9A3DF1EFBA417004175F7 /* earth-diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70F9A3DE1EFBA417004175F7 /* earth-diffuse.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41308689FF91BFBBC5111514 /* Pods-GVRDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVRDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GVRDemo/Pods-GVRDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7010B8D31ECB7520003BE838 /* sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		7010B8D41ECB7591003BE838 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		7010B8D51ECB7591003BE838 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		7010B8DD1ECC2DA4003BE838 /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		7010B8DE1ECC2DA4003BE838 /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		704C59C01EC43C98008C6E31 /* GVRDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GVRDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		704C59C41EC43C98008C6E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		704C59C61EC43C98008C6E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		704C59C71EC43C98008C6E31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		704C59CD1EC43C98008C6E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		704C59CF1EC43C98008C6E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		704C59D21EC43C98008C6E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		704C59D41EC43C98008C6E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		704C59DC1EC47078008C6E31 /* 雪地.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "雪地.mp4"; sourceTree = "<group>"; };
+		706DC7F21EC9D91600477378 /* VRVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRVideoPlayerViewController.h; sourceTree = "<group>"; };
+		706DC7F31EC9D91600477378 /* VRVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRVideoPlayerViewController.m; sourceTree = "<group>"; };
+		70F9A3DB1EFBA0FA004175F7 /* DrawABallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawABallViewController.h; sourceTree = "<group>"; };
+		70F9A3DC1EFBA0FA004175F7 /* DrawABallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawABallViewController.m; sourceTree = "<group>"; };
+		70F9A3DE1EFBA417004175F7 /* earth-diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-diffuse.jpg"; sourceTree = "<group>"; };
+		A1A5128A5BC9D9B75238894E /* Pods-GVRDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVRDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVRDemo/Pods-GVRDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		704C59BD1EC43C98008C6E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368B4F47FA5A01E316BA4808 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5128A5BC9D9B75238894E /* Pods-GVRDemo.debug.xcconfig */,
+				41308689FF91BFBBC5111514 /* Pods-GVRDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7010B8F01ED078BD003BE838 /* MyOpenGLESVRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				70F9A3DE1EFBA417004175F7 /* earth-diffuse.jpg */,
+				7010B8D31ECB7520003BE838 /* sphere.h */,
+				7010B8D41ECB7591003BE838 /* Shader.fsh */,
+				7010B8D51ECB7591003BE838 /* Shader.vsh */,
+				7010B8DD1ECC2DA4003BE838 /* MyOpenGLView.h */,
+				7010B8DE1ECC2DA4003BE838 /* MyOpenGLView.m */,
+				706DC7F21EC9D91600477378 /* VRVideoPlayerViewController.h */,
+				706DC7F31EC9D91600477378 /* VRVideoPlayerViewController.m */,
+				70F9A3DB1EFBA0FA004175F7 /* DrawABallViewController.h */,
+				70F9A3DC1EFBA0FA004175F7 /* DrawABallViewController.m */,
+			);
+			name = MyOpenGLESVRDemo;
+			sourceTree = "<group>";
+		};
+		704C59B71EC43C98008C6E31 = {
+			isa = PBXGroup;
+			children = (
+				704C59C21EC43C98008C6E31 /* GVRDemo */,
+				704C59C31EC43C98008C6E31 /* Supporting Files */,
+				704C59DA1EC47078008C6E31 /* Resource */,
+				704C59C11EC43C98008C6E31 /* Products */,
+				368B4F47FA5A01E316BA4808 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		704C59C11EC43C98008C6E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				704C59C01EC43C98008C6E31 /* GVRDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		704C59C21EC43C98008C6E31 /* GVRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7010B8F01ED078BD003BE838 /* MyOpenGLESVRDemo */,
+				704C59CC1EC43C98008C6E31 /* Main.storyboard */,
+			);
+			path = GVRDemo;
+			sourceTree = "<group>";
+		};
+		704C59C31EC43C98008C6E31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				704C59C61EC43C98008C6E31 /* AppDelegate.h */,
+				704C59C71EC43C98008C6E31 /* AppDelegate.m */,
+				704C59CF1EC43C98008C6E31 /* Assets.xcassets */,
+				704C59D11EC43C98008C6E31 /* LaunchScreen.storyboard */,
+				704C59D41EC43C98008C6E31 /* Info.plist */,
+				704C59C41EC43C98008C6E31 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = GVRDemo;
+			sourceTree = "<group>";
+		};
+		704C59DA1EC47078008C6E31 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				704C59DC1EC47078008C6E31 /* 雪地.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		704C59BF1EC43C98008C6E31 /* GVRDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 704C59D71EC43C98008C6E31 /* Build configuration list for PBXNativeTarget "GVRDemo" */;
+			buildPhases = (
+				33803867F9E53E6D1E3D3FDF /* [CP] Check Pods Manifest.lock */,
+				704C59BC1EC43C98008C6E31 /* Sources */,
+				704C59BD1EC43C98008C6E31 /* Frameworks */,
+				704C59BE1EC43C98008C6E31 /* Resources */,
+				48A6D8B7E0EFB5E8BC07F45E /* [CP] Embed Pods Frameworks */,
+				43A4DD4FFE6C937DFF30060F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GVRDemo;
+			productName = GVRDemo;
+			productReference = 704C59C01EC43C98008C6E31 /* GVRDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		704C59B81EC43C98008C6E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Vincent;
+				TargetAttributes = {
+					704C59BF1EC43C98008C6E31 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = SE6TN6Y4C6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 704C59BB1EC43C98008C6E31 /* Build configuration list for PBXProject "GVRDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 704C59B71EC43C98008C6E31;
+			productRefGroup = 704C59C11EC43C98008C6E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				704C59BF1EC43C98008C6E31 /* GVRDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		704C59BE1EC43C98008C6E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F9A3DF1EFBA417004175F7 /* earth-diffuse.jpg in Resources */,
+				7010B8D71ECB7591003BE838 /* Shader.vsh in Resources */,
+				704C59D31EC43C98008C6E31 /* LaunchScreen.storyboard in Resources */,
+				704C59DF1EC47078008C6E31 /* 雪地.mp4 in Resources */,
+				704C59D01EC43C98008C6E31 /* Assets.xcassets in Resources */,
+				704C59CE1EC43C98008C6E31 /* Main.storyboard in Resources */,
+				7010B8D61ECB7591003BE838 /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33803867F9E53E6D1E3D3FDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		43A4DD4FFE6C937DFF30060F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVRDemo/Pods-GVRDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48A6D8B7E0EFB5E8BC07F45E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVRDemo/Pods-GVRDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		704C59BC1EC43C98008C6E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706DC7F41EC9D91600477378 /* VRVideoPlayerViewController.m in Sources */,
+				70F9A3DD1EFBA0FA004175F7 /* DrawABallViewController.m in Sources */,
+				704C59C81EC43C98008C6E31 /* AppDelegate.m in Sources */,
+				704C59C51EC43C98008C6E31 /* main.m in Sources */,
+				7010B8DF1ECC2DA4003BE838 /* MyOpenGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		704C59CC1EC43C98008C6E31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				704C59CD1EC43C98008C6E31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		704C59D11EC43C98008C6E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				704C59D21EC43C98008C6E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		704C59D51EC43C98008C6E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		704C59D61EC43C98008C6E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		704C59D81EC43C98008C6E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A5128A5BC9D9B75238894E /* Pods-GVRDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SE6TN6Y4C6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = GVRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vincent.GVRDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		704C59D91EC43C98008C6E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41308689FF91BFBBC5111514 /* Pods-GVRDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SE6TN6Y4C6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = GVRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vincent.GVRDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		704C59BB1EC43C98008C6E31 /* Build configuration list for PBXProject "GVRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704C59D51EC43C98008C6E31 /* Debug */,
+				704C59D61EC43C98008C6E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		704C59D71EC43C98008C6E31 /* Build configuration list for PBXNativeTarget "GVRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704C59D81EC43C98008C6E31 /* Debug */,
+				704C59D91EC43C98008C6E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 704C59B81EC43C98008C6E31 /* Project object */;
+}
